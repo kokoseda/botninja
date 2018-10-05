@@ -785,4 +785,4 @@ client.on('message', message => {
            }
 });
 
-client.login('NDcwMzIyNjgwMTcyOTA0NDYw.DjUryA.0JHYWQ67N6lMSZguSCoutOxU29s')
+client.login(process.env.BOT_TOKEN);
