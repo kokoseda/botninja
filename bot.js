@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const moment = require('moment');
 const prefix = ">";
+const moment = require('moment');
 
 client.on('ready', () => {
      client.user.setActivity(" >help | >inv",{type: 'WATCHING'})
